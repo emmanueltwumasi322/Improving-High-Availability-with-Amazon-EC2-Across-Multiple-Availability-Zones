@@ -25,27 +25,22 @@ A critical stabilization system was running on a single physical server whose ha
 
 <p align="center">
 Step 1: Set the AWS Region to <b>US East (N. Virginia) - us-east-1</b> and downloaded the user data script that would automatically configure the EC2 instance during launch.<br/>
-<img src="YOUR_IMAGE_LINK_1" height="80%" width="80%" alt="AWS Region"/>
 <br />
 <br />
 
 Step 2: Launched the first Amazon EC2 instance (<b>veeserver01</b>) using the Amazon Linux AMI, selected the <b>t3.micro</b> instance type, configured an 8 GiB gp3 EBS volume, selected the appropriate VPC, subnet, and security group, and uploaded the user data script.<br/>
-<img src="YOUR_IMAGE_LINK_2" height="80%" width="80%" alt="Launch EC2"/>
 <br />
 <br />
 
 Step 3: Launched a second EC2 instance (<b>veeserver02</b>) in a different Availability Zone (<b>us-east-1a</b> and a second AZ) to improve application availability and eliminate a single point of failure.<br/>
-<img src="YOUR_IMAGE_LINK_3" height="80%" width="80%" alt="Multiple Availability Zones"/>
 <br />
 <br />
 
 Step 4: Verified that the user data script executed successfully by accessing the instance through its public DNS name. The script automatically generated a webpage displaying the EC2 instance details.<br/>
-<img src="YOUR_IMAGE_LINK_4" height="80%" width="80%" alt="User Data Output"/>
 <br />
 <br />
 
 Step 5: Confirmed that the application was accessible using the EC2 instance's public DNS address and validated that the security group allowed the required inbound traffic. The deployment demonstrates how AWS infrastructure can provide greater reliability than a single on-premises server.<br/>
-<img src="YOUR_IMAGE_LINK_5" height="80%" width="80%" alt="Final Result"/>
 <br />
 <br />
 
