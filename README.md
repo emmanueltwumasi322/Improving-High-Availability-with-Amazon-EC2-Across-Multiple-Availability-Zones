@@ -1,4 +1,3 @@
-# Improving-High-Availability-with-Amazon-EC2-Across-Multiple-Availability-Zones
 <h1>Improving High Availability with Amazon EC2 Across Multiple Availability Zones</h1>
 
 <h2>Description</h2>
